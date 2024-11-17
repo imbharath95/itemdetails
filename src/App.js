@@ -13,6 +13,7 @@ export default function () {
   })
   return (
    <div className="item-box-container">
+    <h2>TITLES</h2>
     <ul>
     {sampleItemDetails.map(item => {
       return <li>{item.title}</li>
